@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Wellfleet&display=swap');
+
+
+@font-face {
+  font-family: "Milkids"; 
+  src: url("../assets/fonts/Milk\ Kids.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+    --cor-fundo: #f6efdc;
+    --fonte-principal: 'Pompiere', sans-serif;
+    --fonte-secundaria: 'Wellfleet', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    padding: 20px 0;
+}
+
+nav .logo {
+    margin-top: -35.3%;
+    width: 300px;
+    height: 180px;
+    object-fit: contain;
+    margin-left: -5.5%;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    margin-top: -40%; 
+    font-family: var(--fonte-principal);
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 40px; 
+    display: inline-block; 
+  
+} 
+
+.nuvemum {
+    margin-left: 1px;
+    margin-top: -30px;
+}
+
+h1{
+    font-size: 85px;
+    margin-left: 90px;
+    margin-top: -10%;
+    font-family:"Milkids", sans-serif;
+}
+
+.nome{
+    width: 400px;
+    margin-left: 268px;
+}
+
+.descricao {
+    font-family:"Milkids", sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+.cafe {
+    width: 600px;
+    margin-left: 60.4%;
+    margin-top: -370px; 
+}
+
+.pedido{
+    position: relative;
+    top: -280px;
+    margin-left: 82px;
+    text-decoration: underline;
+    background-color: #f3d6d4;
+    color: black;
+    border: 2px solid #000000;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Milkids", sans-serif;
+}
+
+
+.whats{
+    width: 70px;
+    margin-left: 2%;
+    position: relative;
+    top: -255px;
+}
+
+.nuvemdois{
+    margin-left: -1%;
+    position: relative;
+    top: -250px; 
+}
+
+
+.nuvemtres{
+    margin-left: -7.5px;
+    position: relative;
+    top: -130px; 
+}
+
+.nuvemquatro{
+    width: 435px;
+    margin-left: 71.4%;
+    position: relative;
+    top: -621px; 
+}
+
+.sobre{
+    font-size: 60px;
+    margin-left: 150px;
+    position: relative;
+    top: -620px;
+    font-family:"Milkids", sans-serif;
+}
+
+.sobredec{
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-align: center;
+    margin-left: -690px;
+    position: relative;
+    top: -590px;
+}
+
+.compro{
+    font-size: 60px;
+    margin-left: 880px;
+    position: relative;
+    top: -820px;
+    font-family:"Milkids", sans-serif;
+}
+
+.comprodec{
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 780px;
+    position: relative;
+    top: -790px;
+}
+
+.nuvemcard{
+    width: 1540px;
+    margin-left: -20px;
+    position: absolute;
+    top: 1500px;
+    z-index: -1;
+}
+
+.nuvemcell img{
+    opacity: 0;    
+}
+
+.setacremeum ,.setacremedois , .setacremetres , .setacremequatro , .setacremecinco , .setacremeseis {
+    opacity: 0;
+}
+
+.cardapio{
+    font-size: 50px;
+    margin-left: 670px;
+    position: absolute;
+    top: 1725px;
+    font-family:"Milkids", sans-serif;
+}
+
+.coelho{
+    margin-left: 600px;
+    position: absolute;
+    top: 1580px;
+}
+
+.coelhod{
+    margin-left: 895px;
+    position: absolute;
+    top: 1580px;
+}
+
+/* breakfast */
+
+.paodequeijo{
+    margin-left: 350px;
+    position: absolute;
+    top: 1680px;
+}
+
+.holland{
+    margin-left: 375px;
+    position: absolute;
+    top: 1800px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.panqueca{
+    margin-left: 570px;
+    position: absolute;
+    top: 1700px;
+}
+
+.gigante{
+    margin-left: 580px;
+    position: absolute;
+    top: 1800px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.misto{
+    width: 90px;
+    margin-left: 810px;
+    position: absolute;
+    top: 1680px;
+}
+
+.deilenaar{
+    margin-left: 810px;
+    position: absolute;
+    top: 1800px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.fuba{
+    margin-left: 970px;
+    position: absolute;
+    top: 1680px;
+}
+
+.bonolagus{
+    margin-left: 1000px;
+    position: absolute;
+    top: 1800px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.bolochoco{
+    margin-left: 1200px;
+    position: absolute;
+    top: 1685px;
+}
+
+.cashmere{
+    margin-left: 1180px;
+    position: absolute;
+    top: 1800px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+/* desserts */
+
+.brigadeiro{
+    margin-left: 370px;
+    position: absolute;
+    top: 1920px;
+}
+
+.rex{
+    margin-left: 425px;
+    position: absolute;
+    top: 2015px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.pudim{
+    margin-left: 580px;
+    position: absolute;
+    top: 1920px;
+}
+
+.teporingo{
+    margin-left: 615px;
+    position: absolute;
+    top: 2015px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.quindim{
+    margin-left: 800px;
+    position: absolute;
+    top: 1920px;
+}
+
+.tan{
+    margin-left: 850px;
+    position: absolute;
+    top: 2015px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.cocada{
+    width: 90px;
+    margin-left: 1020px;
+    position: absolute;
+    top: 1920px;
+}
+
+.nesolagus{
+    margin-left: 1020px;
+    position: absolute;
+    top: 2015px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.acai{
+    margin-left: 1240px;
+    position: absolute;
+    top: 1920px;
+}
+
+.netherland{
+    margin-left: 1200px;
+    position: absolute;
+    top: 2020px;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    text-align: center;
+}
+
+/* coffee */
+
+.cappuccino{
+    margin-left: 410px;
+    position: absolute;
+    top: 2120px;
+}
+
+.coelhuccino{
+    margin-left: 400px;
+    position: absolute;
+    top: 2240px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.latte{
+    margin-left: 630px;
+    position: absolute;
+    top: 2120px;
+}
+
+.hoppy{
+    margin-left: 612px;
+    position: absolute;
+    top: 2240px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.mocha{
+    margin-left: 840px;
+    position: absolute;
+    top: 2120px;
+}
+
+.mochaa{
+    margin-left: 800px;
+    position: absolute;
+    top: 2240px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+
+.cold{
+    margin-left: 1050px;
+    position: absolute;
+    top: 2120px;
+}
+
+.coldbrew{
+    margin-left: 1030px;
+    position: absolute;
+    top: 2220px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-align: center;
+}
+
+.espresso{
+    margin-left: 1240px;
+    position: absolute;
+    top: 2150px;
+}
+
+.espressopulao{
+    margin-left: 1220px;
+    position: absolute;
+    top: 2212px;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* reviews */
+
+.reviews{
+    margin-left: 670px;
+    position: absolute;
+    top: 2550px;
+    font-family: "Milkids", sans-serif;
+    font-size: 60px;
+}   
+
+.maria{
+    margin-left: 280px;
+    position: absolute;
+    top: 2550px;
+}
+
+.flavia{
+    margin-left: 830px;
+    position: absolute;
+    top: 2550px;
+}
+
+.ricardo{
+    margin-left: 280px;
+    position: absolute;
+    top: 2890px;
+}
+
+.joao{
+    margin-left: 830px;
+    position: absolute;
+    top: 2890px;
+}
+
+/*rodape*/
+
+.copyright{
+    display: none;
+}
+
+.rodape{
+    position: absolute;
+    top: 3320px;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    left: 736px;
+    transform: translateX(-50%);
+}
+
+.logorod{
+    margin-left: -450px;
+    position: absolute;
+    top: 3470px;
+}
+
+.entrecont{
+    margin-left: 830px;
+    position: absolute;
+    top: 3630px;
+    font-family: "Milkids", sans-serif;
+    font-size: 50px;    
+}
+
+.telefone{
+    margin-left: 920px;
+    position: absolute;
+    top: 3570px;
+    font-family: "Milkids", sans-serif;
+    font-size: 40px;
+}
+
+.tel{
+    margin-left: 860px;
+    position: absolute;
+    top: 3575px;
+}
+
+.email{
+    margin-left: 830px;
+    position: absolute;
+    top: 3680px;
+    font-family: "Milkids", sans-serif;
+    font-size: 40px;
+}
+
+.mail{
+    margin-left: 770px;
+    position: absolute;
+    top: 3683px;
+}
+
+.localizacao{
+    margin-left: 780px;
+    position: absolute;
+    top: 3780px;
+    font-family: "Milkids", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.local{
+    margin-left: 730px;
+    position: absolute;
+    top: 3788px;
+}
+
+.creditos{
+    margin-left: 130px;
+    position: absolute;
+    top: 3870px;
+    font-family: "Milkids", sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+    padding: 5px 0;
+}
+
+nav .logo {
+    margin-top: -160%;
+    width: 130px;
+    height: 180px;
+    object-fit: contain;
+    position: absolute;
+    left: 110px;
+}
+
+nav a {
+    margin: 0 5px; 
+    flex: 1;
+    text-align: center;
+    margin-top: -180%; 
+    font-size: 17px;
+    padding: 0 0px; 
+    display: inline-block; 
+  
+} 
+
+.nuvemum {
+    margin-left: -150px;
+    margin-top: -10px;
+}
+
+h1{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: -60%;
+    font-family:"Milkids", sans-serif;
+}
+
+.nome{
+    width: 230px;
+    margin-left: 50px;
+}
+
+.descricao {
+    font-family:"Milkids", sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cafe {
+    width: 240px;
+    margin-left: 37%;
+    position: absolute;
+    top: 700px;
+}
+
+.pedido{
+    position: absolute;
+    top: 380px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.whats{
+    width: 35px;
+    margin-left: 150px;
+    position: absolute;
+    top: 380px;
+}
+
+.nuvemdois{
+    margin-left: -14.3px;
+    position: absolute;
+    top: 512px; 
+    width: 100px;
+}
+
+.nuvemtres{
+    margin-left: -7.5px;
+    position: absolute;
+    top: 300px; 
+    width: 150px;
+}
+
+.nuvemquatro{
+    width: 173px;
+    margin-left: 210px;
+    position: absolute;
+    top: 587px; 
+}
+
+.sobre{
+    position: absolute;
+    top: 930px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.sobredec{
+    position: absolute;
+    top: 780px;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.compro{
+    position: absolute;
+    top: 1290px;
+    margin-left: 10px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.comprodec{
+    position: absolute;
+    top: 1190px;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* cardapio */
+
+.cardapio{
+    font-size: 30px;
+    position: absolute;
+    top: 1680px;
+    left: -550px;
+    z-index: 1;
+}
+
+.paodequeijo{
+    position: absolute;
+    left: -140px;
+    top: 1515px;
+    width: 30%;
+}
+
+.holland{
+    position: absolute;
+    left: -155px;
+    top: 1595px;
+    font-size: 15px;
+}
+
+.brigadeiro{
+    position: absolute;
+    left: -155px;
+    top: 1685px;
+    width: 30%;
+}
+
+.rex{
+    position: absolute;
+    left: -170px;
+    top: 1760px;
+    font-size: 15px;
+}
+
+.cappuccino{
+    position: absolute;
+    left: -170px;
+    top: 1850px;
+    width: 20%;
+}
+
+.coelhuccino{
+    position: absolute;
+    left: -170px;
+    top: 1930px;
+    font-size: 15px;
+}
+
+.panqueca, .misto, .fuba, .bolochoco, .pudim, .quindim, .cocada, .acai, 
+.latte, .mocha, .cold, .espresso{
+    display: none;
+}
+
+.gigante, .deilenaar, .bonolagus, .cashmere, .teporingo, .tan, .nesolagus, 
+.netherland, .hoppy, .mochaa, .coldbrew, .espressopulao{
+    display: none;
+}
+
+.coelho, .coelhod{
+    display: none;
+}
+
+.nuvemcard{
+    display: none;
+}
+
+.nuvemcell img {
+    position: absolute;
+    left: -17px;
+    top: 1420px;
+    width: 105%;
+    opacity: 1;
+}
+
+.setacremeum{
+    opacity: 1;
+    position: absolute;
+    top: 1530px;
+    left: 350px;
+}
+
+.setacremedois{
+    opacity: 1;
+    position: absolute;
+    top: 1700px;
+    left: 350px;
+}
+
+.setacremetres{
+    opacity: 1;
+    position: absolute;
+    top: 1875px;
+    left: 350px;
+}
+
+.setacremequatro{
+    transform: rotate(180deg);
+    opacity: 1;
+    position: absolute;
+    top: 1530px;
+    left: 170px;
+}
+
+.setacremecinco{
+    transform: rotate(180deg);
+    opacity: 1;
+    position: absolute;
+    top: 1700px;
+    left: 170px;
+}
+
+.setacremeseis{
+    transform: rotate(180deg);
+    opacity: 1;
+    position: absolute;
+    top: 1875px;
+    left: 170px;
+}
+
+/* reviews */
+
+.reviews{
+    position: absolute;
+    top: 2300px;
+    right: 155px;
+    font-size: 30px;
+
+}
+
+.maria{
+    width: 90%;
+    position: absolute;
+    top: 2160px;
+    left: -265px;
+}
+
+.flavia{
+    width: 90%;
+    position: absolute;
+    top: 2400px;
+    left: -810px;
+}
+
+.joao{
+    width: 90%;
+    position: absolute;
+    top: 2650px;
+    left: -810px;
+}
+
+.ricardo{
+    width: 90%;
+    position: absolute;
+    top: 2900px;
+    left: -260px;
+}
+
+
+/* rodape */
+
+.rodape , .logorod, .contatos, .creditos{
+    display: none;
+}
+
+.copyright{
+    display: inline;
+}
+
+footer{
+    width: 90%; 
+    max-width: 600px; 
+    margin: 50px auto 0; 
+    padding: 20px;
+    background-color: #f3d6d4;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 3120px;
+    font-family: "Milkids", sans-serif;
+}
+
+}
